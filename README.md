@@ -6,11 +6,9 @@ to customize stuff.
 
  $ cd church-of-gengar
 
- $ vi config.toml    # Fix baseurl
-
  $ rm -rf public
 
- $ hugo server -v --verboseLog -p3333 --buildDrafts -w -t boxturtle
+ $ hugo server -v --verboseLog -b http://example.org:3333/ -p3333 --buildDrafts -w -t boxturtle
 
 See also:
 
